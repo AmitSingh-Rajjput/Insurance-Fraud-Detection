@@ -191,7 +191,7 @@ Data Export from Db - The data in the stored database is exported as a CSV file 
 
 #### Data Preprocessing
 
-a) Check for null values in the columns. If present, impute the null values using the KNN imputer.
+a) Check for null values in the columns. If present, impute the null values using the Categorical imputer.
 
 b) Check if any column has zero standard deviation, remove such columns as we did in training.
 
@@ -203,7 +203,7 @@ KMeans model created during training is loaded, and clusters for the preprocesse
 
 Based on the cluster number, the respective model is loaded and is used to predict the data for that cluster.
 
-Once the prediction is made for all the clusters, the predictions along with the Wafer names are saved in a CSV file at a given location and the location is returned to the client.
+Once the prediction is made for all the clusters, the predictions are saved in a CSV file at a given location and the location is returned to the client.
 
 ### Deployment
 
