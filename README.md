@@ -225,7 +225,8 @@ We will be deploying the model to the Heroku Cloud platform.
 
 After compilation you can see this type of interface. Where you can give Custom files path for prediction or Default File prediction.
 
-![Uploading Insurance fraud prediction.PNG…]()
+![FD 12](https://user-images.githubusercontent.com/66250589/116273199-2e199800-a79f-11eb-8b65-ecec20ef62b6.JPG)
+
 
 
 
